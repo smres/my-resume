@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    box-shadow: 0 2px 15px rgb(206, 206, 206);
+}
+
+.navbarLeftWrapper span {
+    margin-left: 4rem;
+    cursor: pointer;
+}
+
+.mainLogo img {
+    padding-top: 0.5rem;
+}
+
+.logoRightWrapper {
+    margin-right: 4rem;
+    width: 15vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.imgLogo {
+    width: 100%;
+    height: 100%;
+}
