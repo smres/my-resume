@@ -38,20 +38,21 @@ h3 {
 
 .boxSkill:hover {
     filter: grayscale(0);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(247, 247, 247);
 }
 
 .boxSkill img {
     width: 70px;
     height: 70px;
     transform: scale(1);
-    transition: all 0.3s linear;
+    transition: all 0.2s linear;
 }
 
 .boxSkill:hover img {
     width: 70px;
     height: 70px;
     transform: scale(1.2);
+    filter: drop-shadow(0 -1mm 4mm rgb(154, 21, 194));
 }
 
 .boxSkill p {
@@ -59,4 +60,8 @@ h3 {
     text-align: center;
     font-size: large;
     font-weight: lighter;
+}
+
+.boxSkill:hover p {
+    color: rgb(154, 21, 194);
 }

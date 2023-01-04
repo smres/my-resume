@@ -5,6 +5,9 @@ import style from "./FirstSection.module.css";
 
 // Images
 import cityBannerImage from "../assets/images/city-4791269_1280.png";
+import Space from "../assets/images/space.png";
+import Robat from "../assets/images/robat.png";
+import Sit from "../assets/images/sit.png";
 
 const FirstSection = () => {
   return (
@@ -27,6 +30,24 @@ const FirstSection = () => {
         </div>
         <div className={style.imageLeft}>
           <img
+            style={{ width: "100px", height: "80px" }}
+            className={style.abs1}
+            src={Space}
+            alt="space"
+          />
+          <img
+            style={{ width: "100px", height: "80px" }}
+            className={style.abs2}
+            src={Robat}
+            alt="space"
+          />
+          <img
+            style={{ width: "100px", height: "80px" }}
+            className={style.abs3}
+            src={Sit}
+            alt="space"
+          />
+          <img
             style={{ pointerEvents: "none" }}
             draggable={false}
             src={cityBannerImage}
@@ -34,6 +55,13 @@ const FirstSection = () => {
           />
         </div>
       </div>
+      <hr
+        style={{
+          backgroundColor: "#b7b7b7",
+          height: "0.2rem",
+          marginTop: "10rem",
+        }}
+      />
     </>
   );
 };

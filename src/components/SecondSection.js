@@ -16,7 +16,6 @@ const SecondSection = () => {
   return (
     <>
       <div className={style.container}>
-        <hr style={{ backgroundColor: "#b7b7b7", height: "0.2rem" }} />
         <h3>My Skills and Advantage</h3>
 
         <div className={style.wrapperSkillsBox}>
