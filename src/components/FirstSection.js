@@ -3,6 +3,9 @@ import React from "react";
 // Styles
 import style from "./FirstSection.module.css";
 
+// Images
+import cityBannerImage from "../assets/images/city-4791269_1280.png";
+
 const FirstSection = () => {
   return (
     <>
@@ -16,13 +19,20 @@ const FirstSection = () => {
       </div>
       <div className={style.bannerWrapper}>
         <div className={style.textRight}>
-          <span>I am very glad that you visited my resume site.</span>
-          <span>I hope you like the contents of this page.</span>
+          <span>i am very glad that you visited my resume site.</span>
+          <span>i hope you like the contents of this page.</span>
           <span>
             Also, I would be grateful if you could give me feedback by email.
           </span>
         </div>
-        <div className={style.imageLeft}></div>
+        <div className={style.imageLeft}>
+          <img
+            style={{ pointerEvents: "none" }}
+            draggable={false}
+            src={cityBannerImage}
+            alt="city-logo-right"
+          />
+        </div>
       </div>
     </>
   );

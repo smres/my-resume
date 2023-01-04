@@ -27,9 +27,13 @@
     scroll-behavior: smooth;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     background-color: rgb(255, 255, 255);
     user-select: none;
-    line-height: 1;
+    line-height: 1.6;
     font-family: Changa, sans-serif;
 }

@@ -1,5 +1,5 @@
 .wrapperFistSection {
-    margin-top: 5rem;
+    margin-top: 20rem;
 }
 
 .HeaderMyNameAndJob {
@@ -13,4 +13,63 @@
 
 .fontMedium {
     font-size: 2rem;
+}
+
+.bannerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15rem;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.textRight {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 4rem 3.5rem;
+    margin-right: 3rem;
+    transition: all .2s linear;
+}
+
+.textRight::before {
+    content: "";
+    position: absolute;
+    bottom: 380px;
+    left: 0;
+    width: 0;
+    height: 30px;
+    background-color: #764abc !important;
+    transition: all 1s;
+    z-index: -1;
+    transform: translateX(100%);
+    border-radius: 10px;
+}
+
+.textRight:hover {
+    background-color: rgb(229, 229, 229);
+}
+
+.textRight:hover::before {
+    transform: translateX(0);
+    width: 90%;
+    left: 5%;
+    background-color: rgb(229, 229, 229);
+}
+
+.textRight span {
+    font-size: 4rem;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.bannerWrapper .imageLeft {
+    width: 200%;
+}
+
+.bannerWrapper .imageLeft>img {
+    width: 100%;
 }

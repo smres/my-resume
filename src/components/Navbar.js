@@ -16,9 +16,9 @@ const Navbar = () => {
     <div>
       <div className={style.container}>
         <div className={style.navbarLeftWrapper}>
-          <span>Work</span>
-          <span>Contact me</span>
-          <span>About me</span>
+          <span className={style.spanAnimate}>Work</span>
+          <span className={style.spanAnimate}>Contact me</span>
+          <span className={style.spanAnimate}>About me</span>
         </div>
         <div className={style.mainLogo}>
           <Link to="/">
