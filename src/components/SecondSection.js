@@ -11,12 +11,13 @@ import Git from "../assets/images/gitSkill.svg";
 import GitHub from "../assets/images/githubSkill.svg";
 import GitLab from "../assets/images/gitlabSkill.svg";
 import Sass from "../assets/images/sassSkill.svg";
+import Redux from "../assets/images/redux.svg";
 
 const SecondSection = () => {
   return (
     <>
       <div className={style.container}>
-        <h3>My Skills and Advantage</h3>
+        <h3 className={style.skillsText}>My Skills and Advantage</h3>
 
         <div className={style.wrapperSkillsBox}>
           <div className={`${style.boxSkill}`}>
@@ -47,8 +48,19 @@ const SecondSection = () => {
             <img src={GitLab} alt="git-feature" />
             <p>GitLab</p>
           </div>
+          <div className={`${style.boxSkill}`}>
+            <img src={Redux} alt="redux-feature" />
+            <p>Redux</p>
+          </div>
         </div>
       </div>
+      <hr
+        style={{
+          backgroundColor: "#b7b7b7",
+          height: "0.2rem",
+          marginTop: "10rem",
+        }}
+      />
     </>
   );
 };

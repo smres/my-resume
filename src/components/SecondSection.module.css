@@ -1,67 +1,65 @@
 .container {
-    margin-top: 8rem;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+  margin-top: 8rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-h3 {
-    margin-top: 8rem;
-    margin-bottom: 8rem;
-    font-size: 3rem;
-    font-weight: 600;
-    text-align: center;
+.skillsText {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  font-weight: 600;
 }
 
 .wrapperSkillsBox {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .boxSkill {
-    min-height: 200px;
-    width: fit-content;
-    background-color: rgb(240, 240, 240);
-    padding: 3rem 8rem;
-    border-radius: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 1.5rem 2rem;
-    filter: grayscale(1);
-    transition: all 0.2s linear;
-    cursor: pointer;
+  min-height: 200px;
+  width: 30rem;
+  background-color: rgb(240, 240, 240);
+  padding: 3rem 8rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem 2rem;
+  filter: grayscale(1);
+  transition: all 0.2s linear;
+  cursor: pointer;
 }
 
 .boxSkill:hover {
-    filter: grayscale(0);
-    background-color: rgb(247, 247, 247);
+  filter: grayscale(0);
+  background-color: rgb(249, 249, 249);
 }
 
 .boxSkill img {
-    width: 70px;
-    height: 70px;
-    transform: scale(1);
-    transition: all 0.2s linear;
+  width: 70px;
+  height: 70px;
+  transform: scale(1);
+  transition: all 0.2s linear;
 }
 
 .boxSkill:hover img {
-    width: 70px;
-    height: 70px;
-    transform: scale(1.2);
-    filter: drop-shadow(0 -1mm 4mm rgb(154, 21, 194));
+  width: 70px;
+  height: 70px;
+  transform: scale(1.2);
+  filter: drop-shadow(0 -1mm 4mm rgb(154, 21, 194));
 }
 
 .boxSkill p {
-    margin-top: 3rem;
-    text-align: center;
-    font-size: large;
-    font-weight: lighter;
+  margin-top: 3rem;
+  text-align: center;
+  font-size: large;
+  font-weight: lighter;
 }
 
 .boxSkill:hover p {
-    color: rgb(154, 21, 194);
+  color: rgb(154, 21, 194);
 }

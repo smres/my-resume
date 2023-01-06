@@ -1,39 +1,66 @@
 /* changa-regular - latin */
 @font-face {
-    font-family: 'Changa';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../src/assets/font/changa-v20-latin/changa-v20-latin-regular.eot');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../src/assets/font/changa-v20-latin/changa-v20-latin-regular.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../src/assets/font/changa-v20-latin/changa-v20-latin-regular.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('../src/assets/font/changa-v20-latin/changa-v20-latin-regular.woff') format('woff'),
-        /* Modern Browsers */
-        url('../src/assets/font/changa-v20-latin/changa-v20-latin-regular.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../src/assets/font/changa-v20-latin/changa-v20-latin-regular.svg#Changa') format('svg');
-    /* Legacy iOS */
+  font-family: "Changa";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../src/assets/font/changa-v20-latin/changa-v20-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""),
+    url("../src/assets/font/changa-v20-latin/changa-v20-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../src/assets/font/changa-v20-latin/changa-v20-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../src/assets/font/changa-v20-latin/changa-v20-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../src/assets/font/changa-v20-latin/changa-v20-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../src/assets/font/changa-v20-latin/changa-v20-latin-regular.svg#Changa")
+      format("svg");
+  /* Legacy iOS */
 }
 
-
-*, *::after, *::before {
-    border: 0;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+*,
+*::after,
+*::before {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    background-color: rgb(255, 255, 255);
-    user-select: none;
-    line-height: 1.6;
-    font-family: Changa, sans-serif;
+  background-color: rgb(255, 255, 255);
+  user-select: none;
+  line-height: 1.6;
+  font-family: Changa, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1.5rem;
 }
