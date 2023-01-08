@@ -1,34 +1,40 @@
-import image from "../assets/images/bannerPersonal.png";
+import image from "../assets/images/sangKaghaz.jpg";
 
 export const lastestProjectList = [
   {
     title: "Weather App",
-    sunTitle: "An application to understand the weather",
+    subTitle: "An application to understand the weather",
     img: image,
+    hashtags: ["hash1", "hash2", "hash3"],
   },
   {
     title: "Rock Paper Scissors App",
-    sunTitle: "Rock Paper Scissors game for fun",
+    subTitle: "Rock Paper Scissors game for fun",
     img: require("../assets/images/sangKaghaz.jpg"),
+    hashtags: ["hash1", "hash2", "hash3"],
   },
   {
     title: "calculator App",
-    sunTitle: "calculator App for More info",
+    subTitle: "calculator App for More info",
     img: require("../assets/images/sangKaghaz.jpg"),
+    hashtags: ["hash1", "hash2", "hash3"],
   },
   {
     title: "Hangman Game",
-    sunTitle: "Hangman game for fun",
+    subTitle: "Hangman game for fun",
     img: require("../assets/images/sangKaghaz.jpg"),
+    hashtags: ["hash1", "hash2", "hash3"],
   },
   {
     title: "Todo List App",
-    sunTitle: "Todo List App for fun",
+    subTitle: "Todo List App for fun",
     img: require("../assets/images/sangKaghaz.jpg"),
+    hashtags: ["hash1", "hash2", "hash3"],
   },
   {
     title: "Time App",
-    sunTitle: "Time App for fun",
+    subTitle: "Time App for fun",
     img: require("../assets/images/sangKaghaz.jpg"),
+    hashtags: ["hash1", "hash2", "hash3"],
   },
 ];

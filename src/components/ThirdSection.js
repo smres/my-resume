@@ -17,7 +17,13 @@ const ThirdSection = () => {
 
         <div className={style.wrapperLastestProjectBoxes}>
           {lastestProjectList.map((item) => {
-            return <img key={item.title} src={item.img} />;
+            return (
+              <div key={item.title}>
+                <img src={item.img} alt={item.title} />
+                <h4>{item.title}</h4>
+                <h5>{item.subTitle}</h5>
+              </div>
+            );
           })}
         </div>
       </div>
